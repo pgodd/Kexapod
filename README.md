@@ -11,3 +11,7 @@ Tweakscale: https://github.com/pellinor0/TweakScale/releases
 
 You will need to add the included script files to a "script" directory under the ships directory in Kerbal Space Program game directory.
 Load the rover G14 craft and run "Smoothwalk7" to load the program in KOS
+# Note
+# This was developed on an old Mac laptop. Due to this, there is a chance the script may run too fast on a more powerful computer. To fix this, you will need to adjust settings for IPU in several places. 
+Search the code for lines reading: 
+# set config:ipu to XXXX.
